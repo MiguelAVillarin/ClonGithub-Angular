@@ -1,0 +1,53 @@
+.iconGrande {
+    font-size: x-large;
+}
+
+.novedades {
+    max-width: 30vw;
+    min-width: 20vw;
+}
+
+.lineaURL {
+    text-decoration: none;
+}
+
+@media screen and (max-width:900px) {
+    .novedades {
+        display: none;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .repositorios {
+        width: 37vw;
+    }
+}
+
+.fondoNoti{
+    background: rgb(134,134,134);
+background: radial-gradient(circle, rgba(134, 134, 134, 0.155) 1%, rgba(0,0,0,0) 90%);
+}
+
+.letraPeq{
+    font-size: smaller;
+}
+
+.botonTitulo{
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.perfilImg{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: grey 2px solid;
+}
+
+.bordeIcon{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
